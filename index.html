@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tata sayang</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #ffe4e1;
+            color: #333;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+        .message {
+            display: none;
+            margin-top: 20px;
+            font-size: 20px;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 GOOD MORNING MY LOVE 🌸</h1>
+        <img src="tata1.jpg" alt="Bunga">
+        <p>klik tombol di bawah untuk melihat pesan spesial</p>
+        <button onclick="showMessage()">buka</button>
+        <div class="message" id="message">
+            selamat pagi cantik aku, selamat beraktivitas dannn menjalani hari ini dengan penuh semangat, smga hari ini
+            lebih menyenangkan dari hari sebelumny, jangan lupa sarapan sama mandi, btw semalem gimana bobo ny nyenyak
+            kan? klo ada apa apa kasi tau aku yaa, ceritain semuany, aku disini slalu dengerin kamu, jangan ngeluh terus
+            ya sayang semangattt , love uu more
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
